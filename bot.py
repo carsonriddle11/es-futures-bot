@@ -3,8 +3,8 @@ import requests
 from datetime import datetime
 import pytz
 
-ALPACA_KEY = 'PKDA75ZWIQFEN4DBSS5UFHBCGW'
-ALPACA_SECRET = '79C3H1cJvevNDEZexb8wYS9QqTXueXFokuTVSg3J6t9C'
+ALPACA_KEY = 'PKX2TQAR62DTYODDRJSFICYZMZ'
+ALPACA_SECRET = '8p6JzKs6wYzoBNtFjgcLNG23EVMUgBH7Am44eBVf6qt5'
 ALPACA_BASE = 'https://paper-api.alpaca.markets/v2'
 SYMBOL = 'MES'
 QTY = 1
