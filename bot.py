@@ -3,8 +3,8 @@ import requests
 from datetime import datetime
 import pytz
 
-ALPACA_KEY = PKFLIK7LVILZVQ5RMPMYGI6FEN
-ALPACA_SECRET = 5FygYR2pMMbcZLHb93DszZivRnNd3g8TTB716BgQ2qfR
+ALPACA_KEY = 'PKFLIK7LVILZVQ5RMPMYGI6FEN'
+ALPACA_SECRET = '5FygYR2pMMbcZLHb93DszZivRnNd3g8TTB716BgQ2qfR'
 ALPACA_BASE = 'https://paper-api.alpaca.markets/v2'
 DATA_BASE = 'https://data.alpaca.markets/v2'
 TRADE_SYMBOL = 'SPY'
