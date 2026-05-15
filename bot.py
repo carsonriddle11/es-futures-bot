@@ -22,7 +22,7 @@ def get_account():
     return r.json()
 
 def get_bars():
-    r = requests.get(DATA + '/stocks/' + SYMBOL + '/bars', headers=headers(), params={'timeframe': '15Min', 'limit': 100, 'feed': 'iex'}, timeout=10)
+    r = requests.get(DATA + '/stocks/' + SYMBOL + '/bars', headers=headers(), params={'timeframe': '15Min', 'limit': 100, 'feed': 'sip'}, timeout=10)
     bars = r.json().get('bars', [])
     if len(bars) < 30:
         return None
@@ -123,3 +123,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    
